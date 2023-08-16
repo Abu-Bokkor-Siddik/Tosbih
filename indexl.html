@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <header class="text-center py-32 text-6xl font-extrabold text-emerald-300">Digital Tosbih</header>
+   <main class="flex flex-col lg:flex-row lg:justify-evenly gap-28">
+
+<!-- update -->
+    <div class="card  mx-auto w-80 bg-slate-100 text-neutral-content">
+        <div class="card-body items-center text-center">
+          <h2 id="Subhan3" class="card-title text-4xl text-black">Subhan Allah</h2>
+          <p id="Subhan4"class="text-black text-7xl py-5">0</p>
+          <div class="card-actions justify-end">
+            <button id="Subhan1" class="btn btn-primary">Increment</button>
+            <button id="Subhan2"class="btn btn-error">Decrement</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card mx-auto  w-80 bg-slate-100 text-neutral-content">
+        <div class="card-body items-center text-center">
+          <h2 class="card-title text-4xl text-black">Alhamdullilah</h2>
+          <p id="Alhamdullilahp" class="text-black text-7xl py-5">0</p>
+          <div class="card-actions justify-end">
+            <button id="Alhamdullilah1" class="btn btn-primary">Increment</button>
+            <button id="Alhamdullilah2" class="btn btn-error">Decrement</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card mx-auto w-80 bg-slate-100 text-neutral-content">
+        <div class="card-body items-center text-center">
+          <h2 class="card-title text-4xl text-black">Allahuakber</h2>
+          <p id="Allahuakber1p"  class="text-black text-7xl py-5">0</p>
+          <div class="card-actions justify-end">
+            <button id="Allahuakber1" class="btn btn-primary">Increment</button>
+            <button id="Allahuakber2" class="btn btn-error">Decrement</button>
+          </div>
+        </div>
+      </div>
+
+   </main>
+   <section>
+    <button id="reset1" class="btn btn-success mx-auto my-20 flex justify-center text-center">Reset all Tosbih</button>
+   </section>
+   <script src="./index.js"></script>
+</body>
+</html>
